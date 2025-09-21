@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Portfolio – Your Name</title>
+<meta name="description" content="UI/UX Designer & Developer portfolio.">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Plus+Jakarta+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/styles.css">
+<script defer src="js/scripts.js"></script>
+
+</head>
+<body>
+<header class="site-header">
+  <a class="logo" href="index.html" aria-label="Home">SY</a>
+  <button class="nav-toggle" aria-expanded="false" aria-controls="primary-nav">
+    <span class="sr-only">Toggle navigation</span>
+    ☰
+  </button>
+  <nav id="primary-nav" class="nav">
+    <a href="index.html">Home</a>
+    <a href="portfolio.html">Work</a>
+    <a href="about.html">About</a>
+    <a href="resume.html">Resume</a>
+    <a href="contact.html">Contact</a>
+  </nav>
+</header>
+
+<main class="container">
+  <h1>Work / Case Studies</h1>
+  <!-- Project template section you can duplicate -->
+  <article id="project-1" class="case">
+    <header class="case-header">
+      <h2>Project Title</h2>
+      <ul class="meta">
+        <li><strong>Role:</strong> UX Designer</li>
+        <li><strong>Timeline:</strong> 2025</li>
+        <li><strong>Tools:</strong> Figma, JS</li>
+      </ul>
+    </header>
+
+    <section class="case-block">
+      <h3>Overview</h3>
+      <p>Problem, audience, business/user goals, constraints.</p>
+    </section>
+
+    <section class="case-block">
+      <h3>Process</h3>
+      <ul class="steps">
+        <li>Research & insights</li>
+        <li>IA & flows</li>
+        <li>Wireframes & prototypes</li>
+        <li>Visual design</li>
+        <li>Testing & iterations</li>
+      </ul>
+    </section>
+
+    <section class="case-block">
+      <h3>Outcome & Impact</h3>
+      <p>KPIs, before/after, what improved (e.g., time-on-task, conversion, error rate).</p>
+    </section>
+
+    <section class="case-block gallery">
+      <figure>
+        <img src="assets/images/placeholder-1.jpg" alt="Screenshot or mockup">
+        <figcaption>Caption for the artifact.</figcaption>
+      </figure>
+      <figure>
+        <img src="assets/images/placeholder-2.jpg" alt="Screenshot or mockup">
+        <figcaption>Another artifact with notes.</figcaption>
+      </figure>
+    </section>
+
+    <footer class="case-footer">
+      <a class="btn ghost" href="#top">Back to top</a>
+    </footer>
+  </article>
+</main>
+<footer class="site-footer">
+  <div class="container">
+    <p>© <span id="year"></span> Your Name — UI/UX Designer & Developer</p>
+    <ul class="social">
+      <li><a href="#" aria-label="GitHub">GitHub</a></li>
+      <li><a href="#" aria-label="LinkedIn">LinkedIn</a></li>
+      <li><a href="#" aria-label="Email">Email</a></li>
+    </ul>
+  </div>
+</footer>
+
+</body>
+</html>

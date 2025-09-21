@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Portfolio – Your Name</title>
+<meta name="description" content="UI/UX Designer & Developer portfolio.">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Plus+Jakarta+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/styles.css">
+<script defer src="js/scripts.js"></script>
+
+</head>
+<body>
+<header class="site-header">
+  <a class="logo" href="index.html" aria-label="Home">SY</a>
+  <button class="nav-toggle" aria-expanded="false" aria-controls="primary-nav">
+    <span class="sr-only">Toggle navigation</span>
+    ☰
+  </button>
+  <nav id="primary-nav" class="nav">
+    <a href="index.html">Home</a>
+    <a href="portfolio.html">Work</a>
+    <a href="about.html">About</a>
+    <a href="resume.html">Resume</a>
+    <a href="contact.html">Contact</a>
+  </nav>
+</header>
+
+<main>
+  <section class="hero container">
+    <p class="eyebrow">Hello, I’m</p>
+    <h1>Your Name</h1>
+    <p class="lead">UI/UX designer & software engineer crafting <strong>usable</strong>, <strong>accessible</strong> and <strong>delightful</strong> experiences.</p>
+    <div class="cta-row">
+      <a class="btn primary" href="portfolio.html">View Work</a>
+      <a class="btn ghost" href="about.html">About Me</a>
+    </div>
+  </section>
+
+  <section class="grid container">
+    <h2 class="section-title">Selected Projects</h2>
+    <div class="cards">
+      <!-- Duplicate/replace cards as you add projects -->
+      <article class="card">
+        <a class="card-link" href="portfolio.html#project-1" aria-label="Open Project 1"></a>
+        <img src="assets/images/placeholder-1.jpg" alt="Project mockup placeholder">
+        <div class="card-body">
+          <h3>Project Title One</h3>
+          <p>One-liner value proposition: what problem, who for, impact.</p>
+          <ul class="tags"><li>UI/UX</li><li>Research</li><li>Web</li></ul>
+        </div>
+      </article>
+
+      <article class="card">
+        <a class="card-link" href="portfolio.html#project-2" aria-label="Open Project 2"></a>
+        <img src="assets/images/placeholder-2.jpg" alt="Project mockup placeholder">
+        <div class="card-body">
+          <h3>Project Title Two</h3>
+          <p>Short hook describing outcome and your role.</p>
+          <ul class="tags"><li>Prototype</li><li>Mobile</li></ul>
+        </div>
+      </article>
+
+      <article class="card">
+        <a class="card-link" href="portfolio.html#project-3" aria-label="Open Project 3"></a>
+        <img src="assets/images/placeholder-3.jpg" alt="Project mockup placeholder">
+        <div class="card-body">
+          <h3>Project Title Three</h3>
+          <p>Brief teaser; click-through for full case study structure.</p>
+          <ul class="tags"><li>Design System</li></ul>
+        </div>
+      </article>
+    </div>
+  </section>
+
+  <section class="container cta-banner">
+    <h2>Available for work</h2>
+    <p>Have a project in mind? I’d love to help.</p>
+    <a class="btn primary" href="contact.html">Contact Me</a>
+  </section>
+</main>
+<footer class="site-footer">
+  <div class="container">
+    <p>© <span id="year"></span> Your Name — UI/UX Designer & Developer</p>
+    <ul class="social">
+      <li><a href="#" aria-label="GitHub">GitHub</a></li>
+      <li><a href="#" aria-label="LinkedIn">LinkedIn</a></li>
+      <li><a href="#" aria-label="Email">Email</a></li>
+    </ul>
+  </div>
+</footer>
+
+<a class="to-top" href="#top" aria-label="Back to top">↑</a>
+</body>
+</html>
